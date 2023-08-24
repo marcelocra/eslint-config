@@ -1,0 +1,44 @@
+{
+  "name": "@marcelocra/eslint-config",
+  "version": "0.0.1",
+  "private": false,
+  "description": "ESLint and Prettier settings that I use in most projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelocra/eslint-config.git"
+  },
+  "author": "Marcelo Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelocra/eslint-config/issues"
+  },
+  "homepage": "https://github.com/marcelocra/eslint-config#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.2"
+  }
+}
